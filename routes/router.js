@@ -1,15 +1,7 @@
 const router = require('express').Router();
 const routes = [
     'auth',
-    'verify',
-    'admin',
-    'contact',
-    'slot',
-    'stylist',
-    'payment',
-    'booking',
-    'address',
-    'services'
+    'admin'
 ];
 
 module.exports = {

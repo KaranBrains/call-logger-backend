@@ -1,4 +1,4 @@
 module.exports = {
-    jwtSecret: 'barberknocks',
-    db: 'mongodb+srv://root:barberknocks@barberknocks.pnykt.mongodb.net/barberknocks?retryWrites=true&w=majority'
+    jwtSecret: 'callLogger',
+    db: 'mongodb+srv://calllogger:calllogger@cluster0.fuw09.mongodb.net/test'
 };
