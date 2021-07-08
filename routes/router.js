@@ -1,7 +1,9 @@
 const router = require('express').Router();
 const routes = [
     'auth',
-    'admin'
+    'admin',
+    'cancelled',
+    'missed'
 ];
 
 module.exports = {

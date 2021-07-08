@@ -15,12 +15,7 @@ exports.registerUser = (req, res) => {
     fullName : req.body.fullName,
     phone : req.body.phone ,
     password : req.body.password,
-    isNumberVerified : false,
-    isEmailVerified : false,
-    frontId : 'test',
-    backId : 'test',
     role: 'user',
-    isIdSubmitted : false
   }
   User.findOne({ email: req.body.email }, (err, user) => {
     if (err) {
