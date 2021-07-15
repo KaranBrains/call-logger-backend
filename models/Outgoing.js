@@ -19,7 +19,7 @@ const CallSchema = new mongoose.Schema({
     }
 });
 
-const ReceivedSchema = new mongoose.Schema({
+const OutgoingSchema = new mongoose.Schema({
     userId : {
         type: String,
         required: true
@@ -27,4 +27,4 @@ const ReceivedSchema = new mongoose.Schema({
     calls: [CallSchema]
 });
 
-module.exports = mongoose.model('Received', ReceivedSchema);
+module.exports = mongoose.model('Outgoing', OutgoingSchema);

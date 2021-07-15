@@ -3,7 +3,9 @@ const routes = [
     'auth',
     'admin',
     'cancelled',
-    'missed'
+    'missed',
+    'received',
+    'outgoing'
 ];
 
 module.exports = {
